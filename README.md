@@ -1,6 +1,55 @@
 # python-machine-learning-assignments
 Student information
 Name WILFORD ESHIKUMO
+supervised machine learning description
+
+Project Description: Student Exam Score Prediction
+
+This project implements a supervised machine learning pipeline using Linear Regression to predict a student's final examination score based on the total number of hours they studied. By analyzing historical student performance data, the model establishes a clear mathematical relationship (a line of best fit) between study time and academic outcomes. This allows educators to input a specific number of study hours for any student and immediately receive an automated, data-driven prediction of their expected exam score
+unsupervised machine learning description
+
+Project Description: Customer Segmentation
+Instructions for installing dependencies and running your code.
+Step 1: Install Python
+
+Ensure you have Python 3.8 or higher installed on your system. You can verify your installation by opening a terminal (Linux/macOS) or Command Prompt/PowerShell (Windows) and running:
+bash
+python --version
+Step 2: Set Up a Virtual Environment (Recommended)
+
+Creating an isolated environment prevents library version conflicts with other projects on your machine.
+• On Windows:powershell
+python -m venv ml_env
+ml_env\Scripts\activate
+
+Step 3: Install Required Dependencies
+
+Both projects rely on standard scientific data stacks. Run the following command to download and install all necessary dependencies via pip:
+bash
+pip install numpy matplotlib scikit-learn
+
+Package	Purpose
+numpy	Handles numerical arrays, dataset structures, and vector operations.
+scikit-learn	Contains the algorithmic models (LinearRegression, KMeans), data splitters, scalers, and validation metrics.
+matplotlib	Handles structural plot generations and data distribution visuals.
+
+
+Step 4: Save the Code Files
+
+1. Create a project directory on your computer.
+2. For the supervised project, save the code inside a file named predict_scores.py.
+3. For the unsupervised project, save the code inside a file named customer_segments.py.
+
+Step 5: Run the Applications
+
+
+• To run the Student Prediction model:bash
+python .py
+• To run the Customer Segmentation model:bash
+python unsupervised_ML.py
+
+
+This project implements an unsupervised machine learning pipeline using K-Means Clustering to automatically group supermarket customers based on their monthly spending habits and shopping frequency. Because customer behavior data does not come with pre-assigned category labels, the algorithm analyzes the natural spatial proximity between data points in a two-dimensional feature space. This enables the marketing team to uncover distinct customer personas (e.g., high-spending frequent shoppers vs. low-spending occasional visitors) and execute highly targeted business strategies without requiring manual classification.
 
 1. What is Supervised Machine Learning?
 
